@@ -80,7 +80,7 @@ const Form = () => {
         <input type="text" placeholder="Tu Wpisz Imię" className="input text-md lg:text-xl w-full" onChange={onMutate} value={name} id='name'/>
         <input type="text" placeholder="Tu Wpisz Nazwisko" className="input text-md lg:text-xl w-full" onChange={onMutate} value={surname} id='surname'/>
       </div>
-      <input type="text" placeholder="Tu Wpisz Lekarza" className="input text-md lg:text-xl w-full" onChange={onMutate} value={doctor} id='doctor'/>
+      <input type="text" placeholder="Tu Wpisz Lekarza" className="input text-md lg:text-xl w-full" onChange={onMutate} id='doctor'/>
       <input type="text" placeholder="Tu Wpisz Numer Telefonu" className="input text-md lg:text-xl w-full" onChange={onMutate} value={phoneNum} id='phoneNum'/>
       <input type="email" placeholder="Tu Wpisz Adres Email" className="input text-md lg:text-xl w-full" onChange={onMutate} value={email} id='email'/>
       <input type="text" placeholder="Tu Wpisz Adres Zamieszkania" className="input text-md lg:text-xl w-full" onChange={onMutate} value={residency} id='residency'/>
