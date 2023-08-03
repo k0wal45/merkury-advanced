@@ -9,7 +9,6 @@ const Form = () => {
   const [formData, setFormData] = useState({
     name: '',
     surname: '',
-    doctor: '',
     phoneNum: '',
     email: '',
     residency: '',
