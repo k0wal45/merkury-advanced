@@ -5,6 +5,7 @@ import { db } from '../../db'
 
 
 const Form = () => {
+  const [doctors, setDoctors] = useState("")
   const [formData, setFormData] = useState({
     name: '',
     surname: '',
@@ -72,6 +73,8 @@ const Form = () => {
       }))
     }
   }
+  console.log(doctors)
+  
   return (
     <form className='flex flex-col gap-4 p-4 bg-base-300 w-full lg:w-1/2'>
       <div className="flex flex-col lg:flex-row gap-4">
@@ -83,6 +86,7 @@ const Form = () => {
       <input type="email" placeholder="Tu Wpisz Adres Email" className="input text-md lg:text-xl w-full" onChange={onMutate} value={email} id='email'/>
       <input type="text" placeholder="Tu Wpisz Adres Zamieszkania" className="input text-md lg:text-xl w-full" onChange={onMutate} value={residency} id='residency'/>
       <button className='btn btn-secondary text-3xl font-bold' type="submit" onClick={handleSubmit}> Prześlij dane</button>
+      
     </form>
 
   )
