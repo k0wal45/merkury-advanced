@@ -18,7 +18,6 @@ const Form = () => {
   const {
     name,
     surname,
-    doctor,
     phoneNum,
     email,
     residency
@@ -52,7 +51,6 @@ const Form = () => {
     setFormData({
       name: '',
       surname: '',
-      doctor: '',
       phoneNum: '',
       email: '',
       residency: '',
