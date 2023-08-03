@@ -5,7 +5,6 @@ import { db } from '../../db'
 
 
 const Form = () => {
-  const [doctors, setDoctors] = useState([])
   const [formData, setFormData] = useState({
     name: '',
     surname: '',
